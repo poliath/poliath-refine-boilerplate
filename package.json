@@ -1,0 +1,65 @@
+{
+  "name": "poliath-manager",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@nestjsx/crud-request": "^5.0.0-alpha.3",
+    "@refinedev/antd": "^5.7.0",
+    "@refinedev/cli": "^2.7.4",
+    "@refinedev/core": "^4.28.2",
+    "@refinedev/inferencer": "^4.3.2",
+    "@refinedev/kbar": "^1.1.2",
+    "@refinedev/nestjsx-crud": "^4.0.0",
+    "@refinedev/react-router-v6": "^4.1.0",
+    "antd": "^5.0.5",
+    "axios": "^0.26.1",
+    "casbin": "^5.26.2",
+    "i18next": "^20.1.0",
+    "i18next-browser-languagedetector": "^6.1.1",
+    "i18next-xhr-backend": "^3.2.2",
+    "query-string": "^7.1.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-i18next": "^11.8.11",
+    "react-router-dom": "^6.8.1"
+  },
+  "devDependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "@types/node": "^18.16.2",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "rollup-plugin-polyfill-node": "^0.12.0",
+    "typescript": "^4.7.4",
+    "vite": "^4.3.1"
+  },
+  "scripts": {
+    "dev": "refine dev",
+    "build": "tsc && refine build",
+    "preview": "refine start",
+    "refine": "refine"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "refine": {
+    "projectId": "wNJgQ9-H8cdyd-RFk5C2"
+  }
+}

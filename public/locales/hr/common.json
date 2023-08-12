@@ -1,0 +1,177 @@
+{
+  "pages": {
+    "login": {
+      "title": "Prijavite se na svoj račun",
+      "signin": "Prijava",
+      "signup": "Registracija",
+      "divider": "ili",
+      "fields": {
+        "email": "E-mail",
+        "password": "Lozinka"
+      },
+      "errors": {
+        "validEmail": "Neispravna e-mail adresa"
+      },
+      "buttons": {
+        "submit": "Prijava",
+        "forgotPassword": "Zaboravljena lozinka?",
+        "noAccount": "Nemate račun?",
+        "rememberMe": "Zapamti me"
+      }
+    },
+    "confirmEmail": {
+      "title": "Potvrdi e-mail",
+      "buttons": {
+        "confirming": "Potvrđivanje...",
+        "confirm": "Potvrdi"
+      }
+    },
+    "forgotPassword": {
+      "title": "Zaboravili ste lozinku?",
+      "fields": {
+        "email": "E-mail"
+      },
+      "errors": {
+        "validEmail": "Neispravna e-mail adresa"
+      },
+      "buttons": {
+        "submit": "Pošalji upute za resetiranje"
+      }
+    },
+    "register": {
+      "title": "Registrirajte se na svoj račun",
+      "fields": {
+        "email": "E-mail",
+        "password": "Lozinka"
+      },
+      "errors": {
+        "validEmail": "Neispravna e-mail adresa"
+      },
+      "buttons": {
+        "submit": "Registracija",
+        "haveAccount": "Već imate račun?"
+      }
+    },
+    "updatePassword": {
+      "title": "Ažurirajte lozinku",
+      "fields": {
+        "password": "Nova lozinka",
+        "confirmPassword": "Potvrdite novu lozinku"
+      },
+      "errors": {
+        "confirmPasswordNotMatch": "Lozinke se ne podudaraju"
+      },
+      "buttons": {
+        "submit": "Ažuriraj"
+      }
+    },
+    "error": {
+      "info": "Možda ste zaboravili dodati {{action}} komponentu u {{resource}} resurs.",
+      "404": "Nažalost, stranica koju ste posjetili ne postoji.",
+      "resource404": "Jeste li sigurni da ste stvorili {{resource}} resurs.",
+      "backHome": "Povratak na početnu"
+    }
+  },
+  "actions": {
+    "list": "Popis",
+    "create": "Kreiraj",
+    "edit": "Uredi",
+    "show": "Prikaži"
+  },
+  "buttons": {
+    "create": "Kreiraj",
+    "save": "Spremi",
+    "logout": "Odjava",
+    "delete": "Izbriši",
+    "edit": "Uredi",
+    "cancel": "Odustani",
+    "confirm": "Jeste li sigurni?",
+    "filter": "Filtriraj",
+    "clear": "Očisti",
+    "refresh": "Osvježi",
+    "show": "Prikaži",
+    "undo": "Poništi",
+    "import": "Uvoz",
+    "clone": "Kloniraj",
+    "notAccessTitle": "Nemate dozvolu za pristup"
+  },
+  "warnWhenUnsavedChanges": "Jeste li sigurni da želite otići? Imate nespremljene promjene.",
+  "notifications": {
+    "success": "Uspješno",
+    "error": "Greška (statusni kod: {{statusCode}})",
+    "undoable": "Imate {{seconds}} sekundi za poništavanje",
+    "createSuccess": "Uspješno kreirano {{resource}}",
+    "createError": "Greška prilikom kreiranja {{resource}} (statusni kod: {{statusCode}})",
+    "deleteSuccess": "Uspješno izbrisano {{resource}}",
+    "deleteError": "Greška prilikom brisanja {{resource}} (statusni kod: {{statusCode}})",
+    "editSuccess": "Uspješno uređeno {{resource}}",
+    "editError": "Greška prilikom uređivanja {{resource}} (statusni kod: {{statusCode}})",
+    "importProgress": "Uvoz: {{processed}}/{{total}}"
+  },
+  "loading": "Učitavanje",
+  "tags": {
+    "clone": "Kloniraj"
+  },
+  "dashboard": {
+    "title": "Nadzorna ploča"
+  },
+  "articles": {
+    "articles": "Članci",
+    "fields": {
+      "id": "ID",
+      "title": "Naslov",
+      "published": "Objavljeno",
+      "createdAt": "Kreirano",
+      "editedAt": "Uređeno",
+      "content": "Sadržaj"
+    },
+    "titles": {
+      "create": "Kreiraj članak",
+      "edit": "Uredi članak",
+      "list": "Članci",
+      "show": "Prikaži članak"
+    }
+  },
+  "users": {
+    "users": "Korisnici",
+    "fields": {
+      "id": "ID",
+      "email": "E-mail",
+      "provider": "Način prijave",
+      "firstName": "Ime",
+      "lastName": "Prezime",
+      "createdAt": "Kreirano",
+      "updatedAt": "Ažurirano",
+      "status": "Status",
+      "role": "Tip korisnika",
+      "password": "Lozinka"
+    },
+    "titles": {
+      "create": "Kreiraj korisnika",
+      "edit": "Uredi korisnika",
+      "list": "Korisnici",
+      "show": "Prikaži korisnika"
+    }
+  },
+  "documentTitle": {
+    "default": "Poliath Manager",
+    "suffix": " | Poliath Manager",
+    "articles": {
+      "list": "Članci | Poliath Manager",
+      "show": "#{{id}} Prikaži članak | Poliath Manager",
+      "edit": "#{{id}} Uredi članak | Poliath Manager",
+      "create": "Kreiraj novi članak | Poliath Manager",
+      "clone": "#{{id}} Kloniraj članak | Poliath Manager"
+    },
+    "users": {
+      "list": "Korisnici | Poliath Manager",
+      "show": "#{{id}} Prikaži korisnika | Poliath Manager",
+      "edit": "#{{id}} Uredi korisnika | Poliath Manager",
+      "create": "Kreiraj novog korisnika | Poliath Manager",
+      "clone": "#{{id}} Kloniraj korisnika | Poliath Manager"
+    }
+  },
+  "table": {
+    "actions": "Akcije"
+  }
+}
