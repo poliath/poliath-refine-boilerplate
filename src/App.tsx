@@ -89,9 +89,9 @@ function App() {
                   },
                 ]}
                 options={{
+                  disableTelemetry: true,
                   syncWithLocation: true,
                   warnWhenUnsavedChanges: true,
-                  projectId: "wNJgQ9-H8cdyd-RFk5C2",
                 }}
             >
               <Routes>
