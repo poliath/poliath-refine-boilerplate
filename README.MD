@@ -3,6 +3,9 @@
 
 This project was build using [refine](https://github.com/refinedev/refine). This is a boilerplate for [Nest.js API boilerplate](https://github.com/poliath/nestjs-poliath-boilerplate) project. 
 
+## Detailed Quick start guide
+Detailed quick start guide is available [HERE](https://github.com/poliath/nestjs-poliath-boilerplate/blob/master/QUICK_START_GUIDE.md)
+
 ## Features
 
 - [x] Authentication pages (Login, Register, Forgot password, Reset password, Confirm email)
